@@ -1,0 +1,142 @@
+[Project]
+FileName=이걸로 가자.dev
+Name=이걸로 가자
+Type=1
+Ver=2
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=
+ResourceIncludes=
+MakeIncludes=
+Compiler=
+CppCompiler=
+Linker=
+IsCpp=1
+Icon=
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=이걸로 가자.exe
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=
+CommandLine=
+Folders=
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=0
+CompilerSettings=0000000000000000000000000
+UnitCount=9
+
+[VersionInfo]
+Major=1
+Minor=0
+Release=0
+Build=0
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=1.0.0.0
+FileDescription=Developed using the Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+AutoIncBuildNr=0
+SyncProduct=1
+
+[Unit1]
+FileName=Baseball.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CPP) -c Baseball.cpp -o Baseball.o $(CXXFLAGS)
+
+[Unit2]
+FileName=별찍기5.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CPP) -c 별찍기5.cpp -o 별찍기5.o $(CXXFLAGS)
+
+[Unit3]
+FileName=별찍기6.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CPP) -c 별찍기6.cpp -o 별찍기6.o $(CXXFLAGS)
+
+[Unit4]
+FileName=별찍기7.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CPP) -c 별찍기7.cpp -o 별찍기7.o $(CXXFLAGS)
+
+[Unit5]
+FileName=별찍기13.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CPP) -c 별찍기13.cpp -o 별찍기13.o $(CXXFLAGS)
+
+[Unit6]
+FileName=별찍기12.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CPP) -c 별찍기12.cpp -o 별찍기12.o $(CXXFLAGS)
+
+[Unit7]
+FileName=약수 구하기.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CPP) -c "약수 구하기.cpp" -o "약수 구하기.o" $(CXXFLAGS)
+
+[Unit8]
+FileName=369.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=$(CPP) -c 369.cpp -o 369.o $(CXXFLAGS)
+
+[Unit9]
+FileName=테스트.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
